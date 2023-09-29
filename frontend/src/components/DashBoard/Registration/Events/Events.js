@@ -293,7 +293,7 @@ const EventsDb = () => {
   return (
     <>
     <div className='sub_details'>
-      <div className='heading'>
+      <div className='heading-register'>
                     <div className="events-heading">BOYS</div>
                     <div className="edit_button">
                     <Link
@@ -594,7 +594,7 @@ const EventsDb = () => {
       </div>
       <br />
       <div className='sub_details'>
-      <div className='heading'>
+      <div className='heading-register'>
                     <div className="events-heading">Girls</div>
                     <div className="edit_button">
                     <Link

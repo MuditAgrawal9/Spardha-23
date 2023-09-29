@@ -21,6 +21,20 @@
   color:#760E53;
   font-weight: 1000;
 }
+.home_scroller{
+  overflow: auto;
+  height: 75vh;
+  overflow-x: hidden;
+  padding-right:10px;
+}
+.home_scroller::-webkit-scrollbar {
+  width: 10px;
+}
+
+.home_scroller::-webkit-scrollbar-thumb {
+  background-color: #760e53;
+  border-radius: 200px;
+}
 /* .user-dashboard .btn.btn-secondary.btn-lg.dropdown-toggle>span {
     font-size: 11px;
 } */
@@ -78,13 +92,15 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px; */
+  /* margin-left: -15px; */
 }
 
 .gutter {
   
-  padding: 10px;
+  padding: 10px 0;
+  justify-content: center;
+  display: flex;
 }
 
 .welcome-text h2{
@@ -222,7 +238,7 @@
   }
 
   .gutter {
-    padding: 6px;
+    padding: 6px 0;
   }
 }
 
