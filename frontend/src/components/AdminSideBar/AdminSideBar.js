@@ -75,7 +75,7 @@ const SideBar = ({ isOpen, toggle }) => {
           <NavItem className="item_nav">
             <NavLink
               tag={Link}
-              to={'/dashboard/home'}
+              to={'/'}
               onClick={() => {
                 handleClick();
               }}
