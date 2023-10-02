@@ -1,8 +1,8 @@
-// import { useContext, useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 // import Card from '../Card/Card'
 // import styles from './Home.module.css'
-// import { AuthContext } from '../../contexts/AuthContext';
-// import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 import React from 'react'
 // import './Admin.css'
@@ -14,11 +14,11 @@ import AdminContent from '../AdminContent/AdminContent'
 
 
 function Home() {
-	// const {isLoggedIn}=useContext(AuthContext);
-	// const navigate=useNavigate();
-	// useEffect(function(){
-	// 	if (!isLoggedIn) navigate("/login");
-	// },[isLoggedIn, navigate])
+	const {isLoggedIn}=useContext(AuthContext);
+	const navigate=useNavigate();
+	useEffect(function(){
+		if (!isLoggedIn) navigate("/login");
+	},[isLoggedIn, navigate])
     return (
 		// <>
 		// 	<h1 className={styles.heading}>Admin Dashboard</h1>
