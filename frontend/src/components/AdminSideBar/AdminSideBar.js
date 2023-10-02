@@ -88,7 +88,7 @@ const SideBar = ({ isOpen, toggle }) => {
           <NavItem className="item_nav">
             <NavLink
               tag={Link}
-              to={"/admin/allusers"}
+              to={"/allUsers"}
               onClick={() => {
                 handleClick();
               }}
@@ -104,7 +104,7 @@ const SideBar = ({ isOpen, toggle }) => {
           <NavItem className="item_nav">
             <NavLink
               tag={Link}
-              to={'/admin/showtable'}
+              to={'/sportsRegistrations'}
               onClick={() => {
                 handleClick();
               }}
@@ -117,7 +117,7 @@ const SideBar = ({ isOpen, toggle }) => {
           <NavItem className="item_nav">
             <NavLink
               tag={Link}
-              to={'/'}
+              to={'/documentVerification'}
               onClick={() => {
                 handleClick2();
               }}
@@ -131,7 +131,7 @@ const SideBar = ({ isOpen, toggle }) => {
           <NavItem className="item_nav">
             <NavLink
               tag={Link}
-              to={'/admin/allgames'}
+              to={'/allGames'}
               onClick={() => {
                 handleClick2();
               }}
