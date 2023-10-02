@@ -48,7 +48,7 @@ const Admin = () => {
                                 <h3>All Users</h3>
                             </div>
                             <p>Registered users and their details</p>
-                            <a class="hero-btn" href="/admin/allusers">View</a>
+                            <a class="hero-btn" href="/allUsers">View</a>
                         </div>
 
 
@@ -61,7 +61,7 @@ const Admin = () => {
                                 <h3>Sports Registration</h3>
                             </div>
                             <p>Sports registrations and their details.</p>
-                            <a class="hero-btn" href="/admin/showtable">View</a>
+                            <a class="hero-btn" href="/sportsRegistrations">View</a>
                         </div>
 
                         <div class="course-col">
@@ -77,7 +77,7 @@ const Admin = () => {
                                 <h3>Doc Verification</h3>
                             </div>
                             <p>Document verifications and their details</p>
-                            <a class="hero-btn" href="/">View</a>
+                            <a class="hero-btn" href="/documentVerification">View</a>
                         </div>
                         <div class="course-col">
                             <div className='icon_n_text'>
@@ -94,7 +94,7 @@ const Admin = () => {
                                 <h3>All Games</h3>
                             </div>
                             <p>All Games of categories of Boy, Girl & Mixed</p>
-                            <a class="hero-btn" href="/admin/allgames">View</a>
+                            <a class="hero-btn" href="/allGames">View</a>
                         </div>
 
                     </div>
