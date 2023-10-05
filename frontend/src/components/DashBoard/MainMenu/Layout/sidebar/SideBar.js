@@ -12,6 +12,7 @@ import { FaTasks } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
 import { FaHome } from 'react-icons/fa';
 import { FaSignOutAlt } from 'react-icons/fa';
+import { CgFileDocument } from "react-icons/cg";
 import { isMobile } from 'react-device-detect';
 // import {Link } from 'react-router';
 
@@ -107,6 +108,19 @@ const SideBar = ({ isOpen, toggle }) => {
               {/* <FontAwesomeIcon icon={faImage} className="mr-2 icon_bar" /> */}
               <FaUserAlt className="mr-2 icon_bar" />
               User Profile
+            </NavLink>
+          </NavItem>
+          <NavItem className="item_nav">
+            <NavLink
+              tag={Link}
+              to={'/dashboard/document'}
+              onClick={() => {
+                handleClick();
+              }}
+            >
+              {/* <FontAwesomeIcon icon={faBriefcase} className="mr-2 icon_bar" /> */}
+              <CgFileDocument className="mr-2 icon_bar" />
+              Document
             </NavLink>
           </NavItem>
           <NavItem className="item_nav">

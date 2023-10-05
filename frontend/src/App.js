@@ -66,6 +66,9 @@ const Registration = React.lazy(() =>
 const Profile = React.lazy(() =>
   import('./components/DashBoard/Profile/Profile')
 );
+const Document = React.lazy(() =>
+  import('./components/DashBoard/Document/Document')
+);
 const ContingentEdit = React.lazy(() =>
   import('./components/DashBoard/Registration/ContingentEdit/ContingentEdit')
 );
@@ -317,6 +320,14 @@ function App() {
             element={
               <Suspense fallback={<Spinner />}>
                 <Home />
+              </Suspense>
+            }
+          />
+          <Route
+            path="document"
+            element={
+              <Suspense fallback={<Spinner />}>
+                <Document />
               </Suspense>
             }
           />
