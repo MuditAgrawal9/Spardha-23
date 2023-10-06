@@ -1,16 +1,7 @@
-// import React, { useState, useEffect } from 'react';
-// import './Profile.css';f
-// import axios from 'axios';
 import './Document.css';
 import 'react-toastify/dist/ReactToastify.css';
-// import { useNavigate } from 'react-router';
 
 const Document = () => {
-  //   const token = localStorage.getItem('token');
-  //   const baseUrl = process.env.REACT_APP_BASE_URL;
-
-  //   const [user, setUser] = useState('');
-
 
   return (
     <div className="user-dashboard3 profile_Pad">
@@ -20,7 +11,8 @@ const Document = () => {
             <div className="mb-3">
             <br /><br/>
               <label htmlFor="formFile" className="form-label">Upload Your Document For Verification</label>
-              <input className="form-control" type="file" id="formFile" />
+              {/* <input className="form-control" type="file" id="formFile" /> */}
+              <input type="text" class="form-control" placeholder="Input" />
             </div>
             <button type="button" className="btn btn-outline-success">Upload</button>
           </div>
