@@ -2,7 +2,7 @@ import React from 'react'
 import './MiddleSection.css'
 import { NavHashLink } from 'react-router-hash-link';
 // import Date1 from '../DaysLeft/DaysLeft';
-import Day_remaining from '../Images/mascot11-01.png';
+import Day_remaining from '../Images/whatsappimage3.png';
 function Mid() {
   return (
     <div>

@@ -109,8 +109,8 @@ body {
 }
 
 .card {
-	height: 30vh;
-width: 130px;
+	height: 28vh;
+width: 176px;
 	border: none;
 }
 
@@ -127,6 +127,9 @@ width: 130px;
 
 }
 .day_remaining_image{
+	position: relative;
+	left: -7px;
+	top:-6px;
 	height: 47vh;
 }
 .ctext {
@@ -195,10 +198,11 @@ width: 130px;
 	.right-box {
 		height: 17vh;
 margin: 0px;
+padding-top: 127px;
 	}
 
 	.card {
-		height: fit-content;
+		height: 16vh;
 		width: 110px;
 
 	}
@@ -230,6 +234,8 @@ margin: 0px;
 	}
 	.day_remaining_image{
 		height: 29vh;
+		left:0;
+		top:69px;
 	}
 }
 @media (max-aspect-ratio:1)  {
@@ -306,5 +312,35 @@ margin: 0px;
 	.btn2 {
 		font-size: 2.5vh;
 		width: 50vw;
+	}
+}
+@media (max-width: 746px) {
+	.right-box {
+		height: 17vh;
+margin: 0px;
+padding-top: 127px;
+	}
+
+	.card {
+		height: 16vh;
+		width: 110px;
+
+	}
+
+	.cdate {
+		font-size: 5vh;
+		margin-top: -84px;
+	}
+	.day_remaining_image{
+		height: 29vh;
+		left:0;
+		top:69px;
+	}
+}
+@media (max-width: 390px) {
+	.right-box {
+		height: 17vh;
+margin: 0px;
+padding-top: 70px;
 	}
 }
