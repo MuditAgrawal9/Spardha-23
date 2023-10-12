@@ -69,6 +69,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: inherit;
 }
 
 .btn1 {
@@ -108,13 +109,13 @@ body {
 }
 
 .card {
-	height: 25vh;
-width: max-content;
+	height: 30vh;
+width: 130px;
 	border: none;
 }
 
 .cdate {
-	height: 70%;
+	height: 45%;
 	color: red;
 	display: flex;
 	justify-content: center;
@@ -126,7 +127,7 @@ width: max-content;
 
 }
 .day_remaining_image{
-	height: 20vh;
+	height: 47vh;
 }
 .ctext {
 	font-size: 2.7vh;
@@ -198,6 +199,7 @@ margin: 0px;
 
 	.card {
 		height: fit-content;
+		width: 110px;
 
 	}
 
@@ -212,6 +214,7 @@ margin: 0px;
 
 	.cdate {
 		font-size: 5vh;
+		margin-top: -84px;
 	}
 
 
@@ -226,7 +229,7 @@ margin: 0px;
 		max-width: 300px;
 	}
 	.day_remaining_image{
-		height: 12vh;
+		height: 29vh;
 	}
 }
 @media (max-aspect-ratio:1)  {

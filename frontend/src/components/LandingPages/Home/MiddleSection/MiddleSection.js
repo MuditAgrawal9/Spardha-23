@@ -2,7 +2,7 @@ import React from 'react'
 import './MiddleSection.css'
 import { NavHashLink } from 'react-router-hash-link';
 // import Date1 from '../DaysLeft/DaysLeft';
-import Day_remaining from '../Images/1_Day_remaining-removebg.png';
+import Day_remaining from '../Images/mascot11-01.png';
 function Mid() {
   return (
     <div>
@@ -29,7 +29,7 @@ function Mid() {
             <div className='cdate'>
             <img src={Day_remaining} className='day_remaining_image' alt="Day_remaining" />
             </div>
-            <div className='ctext'>Day Remaining</div>
+            {/* <div className='ctext'>Day Remaining</div> */}
           </div>
         </div>
       </div>
